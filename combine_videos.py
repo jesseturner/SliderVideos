@@ -1,7 +1,7 @@
 from moviepy.editor import VideoFileClip, clips_array
 
 # Paths to your input video files
-video_files = ['GeoColor_11_to_13.mp4', 'Cloud_Mask_11_to_13.mp4', 'LowLevel_Water_Vapor_11_to_13.mp4']
+video_files = ['GeoColor_11_to_13.mp4', 'Cloud_Mask_11_to_13.mp4']
 
 # Load the video clips
 clips = [VideoFileClip(video) for video in video_files]
